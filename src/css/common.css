@@ -39,6 +39,10 @@ body {
     border-radius: 4px;
 }
 
+.search-input::placeholder {
+    font-size: 20px;
+}
+
 .search-button {
     width: 100px;
     height: 40px;
@@ -49,7 +53,7 @@ body {
 }
 
 .gallery {
-    margin-top: 72px;
+    margin-top: 90px;
     padding: 24px;
 }
 
