@@ -6,7 +6,7 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
 const searchFormEl = document.querySelector('.search-form');
 const galleryListEl = document.querySelector('.gallery-list');
-const loadMoreBtn = document.querySelector('.load-more');
+const loadMoreBtn = document.querySelector('.load-more-button');
 
 var lightbox = new SimpleLightbox('.gallery a', { captionsData: 'alt', captionDelay: 250 });
 
