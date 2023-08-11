@@ -79,9 +79,7 @@ async function onLoad() {
 
     if (currentPage === totalPages) {
         loadMoreBtn.classList.add('is-hidden');
-        setTimeout(() => {
-            Notify.info(`We're sorry, but you've reached the end of search results.`);
-        }, 2000)
+        Notify.info(`We're sorry, but you've reached the end of search results.`);
     }
 }
 
